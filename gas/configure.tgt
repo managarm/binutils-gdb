@@ -135,6 +135,7 @@ case ${generic_target} in
     esac ;;
   aarch64*-*-netbsd*)			fmt=elf em=nbsd;;
   aarch64*-*-openbsd*)			fmt=elf;;
+  aarch64*-*-managarm*)			fmt=elf;;
   aarch64*-*-pe*)			fmt=coff em=pepaarch64 ;;
   alpha-*-*vms*)			fmt=evax ;;
   alpha-*-osf*)				fmt=ecoff ;;
@@ -264,6 +265,7 @@ case ${generic_target} in
   i386-*-*nt*)				fmt=coff em=pe ;;
   i386-*-rdos*)				fmt=elf ;;
   i386-*-darwin*)			fmt=macho ;;
+  i386-*-managarm*)			fmt=elf ;;
 
   ia16-*-elf*)				fmt=elf ;;
 

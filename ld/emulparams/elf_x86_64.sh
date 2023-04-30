@@ -43,7 +43,7 @@ fi
 # Linux/Solaris modify the default library search path to first include
 # a 64-bit specific directory.
 case "$target" in
-  x86_64*-linux*|i[3-7]86-*-linux-*)
+  x86_64*-linux*|i[3-7]86-*-linux-*|x86_64*-managarm*)
     case "$EMULATION_NAME" in
       *64*)
 	LIBPATH_SUFFIX=64
