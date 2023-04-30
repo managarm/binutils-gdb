@@ -390,6 +390,7 @@ ALL_64_EMULATION_SOURCES = \
 	eaarch64linux32.c \
 	eaarch64linux32b.c \
 	eaarch64linuxb.c \
+	eaarch64managarm.c \
 	eaarch64nto.c \
 	eaarch64pe.c \
 	earm64pe.c \
