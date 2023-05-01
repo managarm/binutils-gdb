@@ -1584,7 +1584,10 @@ if test -d ${srcdir}/gcc ; then
   require_gmp=yes
   require_mpc=yes
 fi
-if test -d ${srcdir}/gdb ; then
+# HACK: because we still use git sources, this ends up enabling a depenedncy
+# that we don't actually want, because the gdb directory is present when it
+# shouldn't be.
+if false; then # test -d ${srcdir}/gdb ; then
   require_gmp=yes
 fi
 
